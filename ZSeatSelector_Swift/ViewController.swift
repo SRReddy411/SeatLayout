@@ -12,6 +12,7 @@ class ViewController: UIViewController, ZSeatSelectorDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
         
         let map:String =    "AAAAA_DAAAA/" +
@@ -34,15 +35,15 @@ class ViewController: UIViewController, ZSeatSelectorDelegate {
         seats.seatSelectorDelegate = self
         //self.view.addSubview(seats)
         
-        let map2:String =   "_DDDDDD_DDDDDD_DDDDDDDD_/" +
+        let map2:String =   "_AAAAAA_AAAAAA_AAAAAAAA_/" +
                             "_AAAAAA_AAAAAA_AAAAAAAA_/" +
                             "________________________/" +
                             "_AAAAAAAAAAAAAAAAAAAAAAA/" +
                             "_AAAAAAAAAAAAAAAAAAAAAAA/" +
                             "________________________/" +
-                            "_AAAAAAAAAAAUUUUUUUAAAAA/" +
-                            "_AAAAAAAAUAAAAUUUUAAAAAA/" +
-                            "_AAAAAAAAAAAAAAAAAAAAAAA/"
+                            "_AAAAAA_AAAAAA_AAAAAAAAAAA/" +
+                            "_AAAAAA_AAAAAA_AAAAAAAAAAA/" +
+                            "_AAAAAA_AAAAAA_AAAAAAAAAAA/"
         
         let seats2 = ZSeatSelector()
         seats2.frame = CGRect(x: 0, y: 250, width: self.view.frame.size.width, height: 600)
@@ -58,6 +59,7 @@ class ViewController: UIViewController, ZSeatSelectorDelegate {
         seats2.seatSelectorDelegate = self
         seats2.maximumZoomScale         = 5.0
         seats2.minimumZoomScale         = 0.05
+        seats2.backgroundColor = UIColor.clear
         self.view.addSubview(seats2)
         
     }

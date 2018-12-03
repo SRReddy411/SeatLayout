@@ -17,6 +17,7 @@
 		0F6A86BE1B8C0DBF00AADC40 /* D@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6A86BA1B8C0DBF00AADC40 /* D@2x.png */; };
 		0F6A86BF1B8C0DBF00AADC40 /* S@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6A86BB1B8C0DBF00AADC40 /* S@2x.png */; };
 		0F6A86C01B8C0DBF00AADC40 /* U@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6A86BC1B8C0DBF00AADC40 /* U@2x.png */; };
+		FD8917F721B4F74B001C4FCA /* BookmyShowLau.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FD8917F621B4F74B001C4FCA /* BookmyShowLau.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0F6A86BA1B8C0DBF00AADC40 /* D@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D@2x.png"; sourceTree = "<group>"; };
 		0F6A86BB1B8C0DBF00AADC40 /* S@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "S@2x.png"; sourceTree = "<group>"; };
 		0F6A86BC1B8C0DBF00AADC40 /* U@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "U@2x.png"; sourceTree = "<group>"; };
+		FD8917F621B4F74B001C4FCA /* BookmyShowLau.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BookmyShowLau.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				0F6A86A71B8C08B100AADC40 /* ViewController.swift */,
 				0F6A86B71B8C08CD00AADC40 /* ZSeatSelector.swift */,
 				0F6A86A91B8C08B100AADC40 /* Main.storyboard */,
+				FD8917F621B4F74B001C4FCA /* BookmyShowLau.jpeg */,
 				0F6A86B91B8C0DBF00AADC40 /* A@2x.png */,
 				0F6A86BA1B8C0DBF00AADC40 /* D@2x.png */,
 				0F6A86BB1B8C0DBF00AADC40 /* S@2x.png */,
@@ -140,6 +143,7 @@
 			files = (
 				0F6A86BF1B8C0DBF00AADC40 /* S@2x.png in Resources */,
 				0F6A86B01B8C08B100AADC40 /* LaunchScreen.storyboard in Resources */,
+				FD8917F721B4F74B001C4FCA /* BookmyShowLau.jpeg in Resources */,
 				0F6A86C01B8C0DBF00AADC40 /* U@2x.png in Resources */,
 				0F6A86AD1B8C08B100AADC40 /* Assets.xcassets in Resources */,
 				0F6A86BE1B8C0DBF00AADC40 /* D@2x.png in Resources */,
